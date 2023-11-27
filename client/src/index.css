@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+a,
+a:disabled:hover {
+  color: none;
+}
+
+body {
+  background: #add489;
+}
+
+.App {
+  padding: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

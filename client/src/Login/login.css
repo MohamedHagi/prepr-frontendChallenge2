@@ -1,0 +1,324 @@
+.f-s-14 {
+  font-size: 14px !important;
+}
+.p-10 {
+  padding: 10px !important;
+}
+.m-t-8 {
+  margin-top: 8px !important;
+}
+.md-form.cs-form.active label {
+  transform: translateY(-20px);
+  font-size: 12px;
+  color: #2196f3;
+}
+.m-b-5 {
+  margin-bottom: 5px !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #27ae60;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0.9;
+}
+
+.btn {
+  font-family: SFUIDisplayRegular;
+  text-transform: unset;
+  font-size: 15px;
+  box-shadow: none;
+  padding: 8px;
+}
+.btn:active,
+.btn:focus,
+.btn:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-header,
+.form-control {
+  border-bottom: 1px solid #e0e7ef !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+.text-red {
+  color: #e45337;
+}
+.text-light-green {
+  color: #27ae60 !important;
+}
+.login-page .login-card {
+  box-shadow: none;
+}
+.login-page .login-card .card-body {
+  padding: 10px 40px;
+}
+.login-page .login-card .card-body .login-form .cs-form {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.login-page
+  .login-card
+  .card-body
+  .login-form
+  .cs-form
+  .form-control::placeholder {
+  font-family: SFUIDisplayMedium;
+}
+.login-page .login-card .card-body .login-form .cs-form .form-control {
+  padding-left: 20px;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  font-family: SFUIDisplayMedium;
+  color: #727d92;
+  position: relative;
+  z-index: 110;
+}
+.login-page .login-card .card-body .login-form .cs-form .forgt-pss-link {
+  text-align: right;
+}
+.login-page .login-card .card-body .login-form .cs-form .forgt-pss-link a {
+  font-size: 13px;
+  color: #727d92;
+  text-decoration: none;
+  font-family: SFUIDisplayMedium;
+}
+.login-page
+  .login-card
+  .card-body
+  .login-form
+  .cs-form
+  .forgt-pss-link
+  a:hover {
+  color: #727d92;
+}
+.login-page .login-card .card-body .login-form .cs-form label {
+  font-family: SFUIDisplayThin;
+  top: 0.5rem;
+}
+.login-page .login-card .card-body .login-form .cs-form label .input-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  display: inline-block;
+  margin: 0 13px 0 0;
+  text-align: center;
+  top: -5px;
+}
+.login-page .login-card .card-body .login-form .cs-form label .input-icon img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.login-page .login-card .card-body .login-form .help-block {
+  position: relative;
+  top: -8px;
+  left: 0;
+  font-size: 11px;
+  text-align: center;
+  margin: 0 auto;
+  display: inherit;
+  width: 100%;
+}
+.login-page .login-card .card-body .login-form .or p {
+  margin: 8px auto;
+  font-family: SFUIDisplayThin;
+  font-size: 15px;
+}
+.mt-5 {
+  margin-top: 5rem !important;
+}
+.md-form input[type='password']:focus:not([readonly]),
+.md-form input[type='text']:focus:not([readonly]) {
+  -webkit-box-shadow: 0 1px 0 0 #e0e7ef;
+  box-shadow: 0 1px 0 0 #e0e7ef;
+  border-bottom: 1px solid #e0e7ef;
+}
+.md-form input[type='password']:focus:not([readonly]) + label,
+.md-form input[type='text']:focus:not([readonly]) + label {
+  color: #727d92;
+}
+div::-webkit-scrollbar {
+  width: 10px;
+}
+div::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+div::-webkit-scrollbar-thumb {
+  background: #888;
+}
+div::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.form-control:focus,
+.form-control:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #ced4da !important;
+}
+.login-card .apple_sign_in {
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.login-card .apple_sign_in div:nth-child(1) {
+  font-family: SFUIDisplayRegular !important;
+  text-transform: unset !important;
+  letter-spacing: initial;
+  transform: scale(1.1, 1.1);
+}
+.login-card .apple_sign_in div:hover,
+.login-card .apple_sign_in div:focus {
+  outline: none !important;
+  border: 0 !important;
+  box-shadow: 0 !important;
+}
+.login-card .apple_sign_in div svg text {
+  font-family: SFUIDisplayRegular !important;
+  text-transform: unset !important;
+  font-size: 12px !important;
+}
+@media (max-width: 1200px) {
+  .login-page .login-card .card-body {
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .login-page .login-card .card-body {
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 992px) {
+  .login-page .login-card .card-body {
+    padding: 10px 15px;
+  }
+  .login-page .login-card {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .login-page .login-card .card-body {
+    padding: 10px 15px;
+  }
+  .login-page .login-card {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .login-page .login-card {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+}
+@media (max-width: 667px) {
+  .login-page .login-card .card-body {
+    padding: 10px 15px;
+  }
+  .login-page .login-card {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+}
+@media (max-width: 640px) {
+  .login-page .login-card .card-body {
+    padding: 10px 15px;
+  }
+  .login-page .login-card {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .login-page .login-card .card-body {
+    padding: 10px 15px;
+  }
+  .login-page .login-card {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+}
+@media (max-width: 320px) {
+  .login-page .login-card .card-body {
+    padding: 10px 15px;
+  }
+  .login-page .login-card {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+}
+a {
+  color: #27ae60;
+}
+
+.apple_sign_in {
+  height: 42px;
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+@font-face {
+  font-family: SFUIDisplayRegular;
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.eot);
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.eot)
+      format('embedded-opentype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.woff2)
+      format('woff2'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.woff)
+      format('woff'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.ttf)
+      format('truetype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.svg#SFUIDisplayRegular)
+      format('svg');
+}
+@font-face {
+  font-family: SFUIDisplayMedium;
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayMedium.eot);
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayMedium.eot)
+      format('embedded-opentype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayMedium.woff2)
+      format('woff2'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayMedium.woff)
+      format('woff'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayMedium.ttf)
+      format('truetype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayMedium.svg#SFUIDisplayMedium)
+      format('svg');
+}
+@font-face {
+  font-family: SFUIDisplayThin;
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayThin.eot);
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayThin.eot)
+      format('embedded-opentype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayThin.woff2)
+      format('woff2'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayThin.woff)
+      format('woff'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayThin.ttf)
+      format('truetype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayThin.svg#SFUIDisplayThin)
+      format('svg');
+}
