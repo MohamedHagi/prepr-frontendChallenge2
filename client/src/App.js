@@ -6,21 +6,27 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
-import Login from "./Login/Login";
-import SignUp from "./SignUp/SignUp";
+import Login from "./components/Login/Login";
+import SignUp from "./components/SignUp/SignUp";
+import Success from "./components/Login/Success";
+import axios from "axios";
+import { Toaster } from "react-hot-toast";
+
+axios.defaults.baseURL = "http://localhost:8000";
+axios.defaults.withCredentials = true;
 
 function App() {
   return (
     <Router>
-      <div class="App">
-        <Routes>
-          <Route path="/">
-            <Route index element={<Login />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<SignUp />} />
-          </Route>
-        </Routes>
-      </div>
+      <Toaster position="bottom-left" toastOptions={{ duration: 2000 }} />
+      <Routes>
+        <Route path="/">
+          <Route index element={<Login />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/success" element={<Success />} />
+        </Route>
+      </Routes>
     </Router>
   );
 }

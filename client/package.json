@@ -1,31 +1,40 @@
 {
-  "name": "frontend_challenge_2",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.4.2",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-password-checklist": "^1.5.0",
-    "react-password-strength-bar": "^0.4.1",
-    "react-router-dom": "^6.20.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+  "name": "client",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "babelMacros": {
+    "fontawesome-svg-core": {
+      "license": "free"
+    }
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "author": "",
+  "license": "ISC",
+  "proxy": "http://localhost:8000/register",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/fontawesome-svg-core": "^6.5.0",
+    "@fortawesome/free-brands-svg-icons": "^6.5.0",
+    "@fortawesome/free-regular-svg-icons": "^6.5.0",
+    "@fortawesome/free-solid-svg-icons": "^6.5.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-oauth/google": "^0.12.1",
+    "axios": "^1.6.2",
+    "bootstrap": "^5.3.2",
+    "eslint": "^7.11.0",
+    "mdb-react-ui-kit": "^7.0.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-hot-toast": "^2.4.1",
+    "react-owl-carousel": "^2.3.3",
+    "react-password-checklist": "^1.5.0",
+    "react-password-strength-bar": "^0.4.1",
+    "react-router-dom": "^6.20.0",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.8.0"
   },
   "browserslist": {
     "production": [
@@ -38,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "web-vitals": "^3.5.0"
   }
 }

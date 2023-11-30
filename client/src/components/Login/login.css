@@ -1,0 +1,183 @@
+.successPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1%;
+}
+
+.image-container {
+  width: 50%;
+  flex: 1;
+  position: relative;
+  top: -350px;
+  padding: 5%;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+
+.f-s-14 {
+  font-size: 14px !important;
+}
+.p-10 {
+  padding: 10px !important;
+}
+.m-t-8 {
+  margin-top: 8px !important;
+}
+.md-form.cs-form.active label {
+  transform: translateY(-20px);
+  font-size: 12px;
+  color: #2196f3;
+}
+.m-b-5 {
+  margin-bottom: 5px !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #27ae60;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0.9;
+}
+
+.btn {
+  font-family: SFUIDisplayRegular;
+  text-transform: unset;
+  font-size: 15px;
+  box-shadow: none;
+  padding: 8px;
+}
+.btn:active,
+.btn:focus,
+.btn:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-header,
+.form-control {
+  border-bottom: 1px solid #e0e7ef !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+.text-light-green {
+  color: #27ae60 !important;
+}
+.mt-5 {
+  margin-top: 5rem !important;
+}
+.md-form input[type='password']:focus:not([readonly]),
+.md-form input[type='text']:focus:not([readonly]) {
+  -webkit-box-shadow: 0 1px 0 0 #e0e7ef;
+  box-shadow: 0 1px 0 0 #e0e7ef;
+  border-bottom: 1px solid #e0e7ef;
+}
+.md-form input[type='password']:focus:not([readonly]) + label,
+.md-form input[type='text']:focus:not([readonly]) + label {
+  color: #727d92;
+}
+div::-webkit-scrollbar {
+  width: 10px;
+}
+div::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+div::-webkit-scrollbar-thumb {
+  background: #888;
+}
+div::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.form-control:focus,
+.form-control:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #ced4da !important;
+}
+@media (max-width: 992px) {
+  .form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .auth-container {
+    flex-direction: column;
+    padding-bottom: 10%;
+  }
+
+  .mt-5 {
+    margin-top: 0 !important;
+  }
+
+  .image-container {
+    padding-top: 3%;
+    width: 100%;
+    top: auto;
+  }
+}
+a {
+  color: #27ae60;
+}
+
+@font-face {
+  font-family: SFUIDisplayRegular;
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.eot);
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.eot)
+      format('embedded-opentype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.woff2)
+      format('woff2'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.woff)
+      format('woff'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.ttf)
+      format('truetype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.svg#SFUIDisplayRegular)
+      format('svg');
+}
+@font-face {
+  font-family: SFUIDisplayMedium;
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayMedium.eot);
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayMedium.eot)
+      format('embedded-opentype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayMedium.woff2)
+      format('woff2'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayMedium.woff)
+      format('woff'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayMedium.ttf)
+      format('truetype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayMedium.svg#SFUIDisplayMedium)
+      format('svg');
+}
+@font-face {
+  font-family: SFUIDisplayThin;
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayThin.eot);
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayThin.eot)
+      format('embedded-opentype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayThin.woff2)
+      format('woff2'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayThin.woff)
+      format('woff'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayThin.ttf)
+      format('truetype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayThin.svg#SFUIDisplayThin)
+      format('svg');
+}

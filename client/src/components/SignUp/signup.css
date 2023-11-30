@@ -1,0 +1,64 @@
+.md-form {
+  margin-top: 2.5rem !important;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 325px;
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  .signup-container {
+    width: 80%;
+  }
+}
+
+.col-lg-4,
+.col-md-6 {
+  flex: 1 !important;
+  max-width: 100% !important;
+}
+
+.md-form label.active {
+  font-size: 0.9rem !important;
+  transform: translateY(-140%) !important;
+  margin-top: 2%;
+}
+
+.md-form label {
+  font-size: 0.9rem !important;
+  top: 0.2rem;
+}
+
+.md-form.cs-form {
+  position: relative;
+}
+
+.md-form.cs-form .show-password-button {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.selectLanguage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.language {
+  width: 100%;
+}
+
+li.invalid,
+li.valid {
+  align-items: center !important;
+}
