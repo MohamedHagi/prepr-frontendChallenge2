@@ -88,9 +88,6 @@ To run the application locally, follow these steps:
 
 Explore the recreated registration and login pages by interacting with the sign-up form, including the mouseover effects. Use the register button, login button, and SSO button to test their respective functionalities.
 
-## Note
-
-- Dark mode preferences do not persist upon browser refresh, adhering to the specified requirements.
 
 ## Author
 
