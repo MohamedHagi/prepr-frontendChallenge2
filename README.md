@@ -1,4 +1,4 @@
-# Full-Stack React Application - PreprLabs Clone
+# Full-Stack React Application - PreprLabs Challenge 2
 
 ## Overview
 
